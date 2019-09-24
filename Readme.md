@@ -6,4 +6,5 @@
 
 # It is also meant to be a showcase of my skills as a developer.
 
-# If you have any helpful/constructive comments on the content or the site itself, please feel free to contact me via e-mail.# Michael-s-page
+# If you have any helpful/constructive comments on the content or the site itself, please feel free to contact me via e-mail.
+
