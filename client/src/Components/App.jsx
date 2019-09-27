@@ -8,35 +8,30 @@ class App extends React.Component {
   constructor () {
     super ()
     this.state = {
-      view: null
+      view: ''
     }
-    this.changeView = this.changeView.bind(this)
+    this.handleClick = this.handleClick.bind(this)
     this.renderView = this.renderView.bind(this)
   }
 
-  changeView(option) {
-    console.log(this.state)
+  handleClick(e) {
+    const id = e.target.id
     this.setState({
-      view: option
+      view: [id]
     })
   }
 
   renderView() {
-    const {view} = this.state
-
-    if(view === 'home') {
-      return <App/>
-    }
-    if (view === 'aboutMe') {
+    if (this.state.view[0] === 'aboutMe') {
       return <AboutMe/>
     }
-    if (view === 'resume') {
+    if (this.state.view[0] === 'resume') {
       return <Resume/>
     }
-    if (view === 'myProjects') {
+    if (this.state.view[0] === 'myProjects') {
       return <MyProjects/>
     }
-    if (view === 'contactMe') {
+    if (this.state.view[0] === 'contactMe') {
       return <ContactMe/>
     }
   }
@@ -45,15 +40,14 @@ class App extends React.Component {
     return (
       <div>
         <div className="nav-bar">
-          <span onClick= {()=>this.changeView('home')}>Home</span>
-          <span onClick= {()=>this.changeView('aboutMe')}>About Me</span>
-          <span onClick= {()=>this.changeView('resume')}>Résumé</span>
-          <span onClick= {()=>this.changeView('myProjects')}>My Projects</span>
-          <span onClick= {()=>this.changeView('contactMe')}>Contact Me</span>
+          <span id= "home" onClick= {this.handleClick}>Home</span>
+          <span id= "aboutMe" onClick= {this.handleClick}>About Me</span>
+          <span id= "resume" onClick= {this.handleClick}>Résumé</span>
+          <span id= "myProjects" onClick= {this.handleClick}>My Projects</span>
+          <span id= "contactMe" onClick= {this.handleClick}>Contact Me</span>
         </div>
-        <div className="container">
-          <div className="welcome">Welcome!</div>
-          <div className="home-text">Lorem Ipsum blah blah blah lbahl;aksdf;alsidjf;alksdjf;alsk</div>
+        <div>
+          {this.renderView()}
         </div>
       </div>
     )
