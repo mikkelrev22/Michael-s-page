@@ -8,7 +8,7 @@ class App extends React.Component {
   constructor () {
     super ()
     this.state = {
-      view: ''
+      view: ['home']
     }
     this.handleClick = this.handleClick.bind(this)
     this.renderView = this.renderView.bind(this)
@@ -48,6 +48,13 @@ class App extends React.Component {
         </div>
         <div>
           {this.renderView()}
+        </div>
+        <div>
+          {this.state.view[0]==='home' &&
+          <h2>
+          Welcome to my page!
+          </h2>
+        }
         </div>
       </div>
     )
