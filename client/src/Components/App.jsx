@@ -8,7 +8,7 @@ class App extends React.Component {
   constructor () {
     super ()
     this.state = {
-      view: ['home']
+      view: 'home'
     }
     this.handleClick = this.handleClick.bind(this)
     this.renderView = this.renderView.bind(this)
@@ -17,21 +17,21 @@ class App extends React.Component {
   handleClick(e) {
     const id = e.target.id
     this.setState({
-      view: [id]
+      view: id
     })
   }
 
   renderView() {
-    if (this.state.view[0] === 'aboutMe') {
+    if (this.state.view === 'aboutMe') {
       return <AboutMe/>
     }
-    if (this.state.view[0] === 'resume') {
+    if (this.state.view === 'resume') {
       return <Resume/>
     }
-    if (this.state.view[0] === 'myProjects') {
+    if (this.state.view === 'myProjects') {
       return <MyProjects/>
     }
-    if (this.state.view[0] === 'contactMe') {
+    if (this.state.view === 'contactMe') {
       return <ContactMe/>
     }
   }
@@ -50,7 +50,7 @@ class App extends React.Component {
           {this.renderView()}
         </div>
         <div>
-          {this.state.view[0]==='home' &&
+          {this.state.view==='home' &&
           <h2>
           Welcome to my page!
           </h2>
