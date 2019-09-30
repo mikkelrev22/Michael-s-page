@@ -49,7 +49,7 @@ class App extends React.Component {
         <div>
           {this.renderView()}
         </div>
-        <div>
+        <div className="title">
           {this.state.view==='home' &&
           <h2>
           Welcome to my page!
