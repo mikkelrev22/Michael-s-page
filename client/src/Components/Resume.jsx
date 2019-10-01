@@ -5,7 +5,7 @@ class Resume extends React.Component {
   constructor (props) {
     super (props)
     this.state = {
-      text: []
+      text: ''
     }
     this.handleClick= this.handleClick.bind(this)
   }
@@ -13,16 +13,10 @@ class Resume extends React.Component {
   handleClick(e) {
     const id = e.target.value
     const storage = {
-      skills: [`Languages: JavaScript, HTML, CSS \n
-      Frameworks: React, Node.js, Express \n
-      Databases: MongoDB, MySQL, PostgreSQL \n
-      Testing: Jest, Enzyme, Mocha, Chai, Postman, HTTPie, Loader.io \n
-      Deployment: Docker, AWS EC2, Nginx, AWS S3 \n
-      Tools: CSS modules, Ajax, jQuery, Axios, Webpack, Git, Trello, Vim \n
-      `],
-      apps: "how",
-      experience: "are",
-      education: "you"
+      skills: `Languages: JavaScript, HTML, CSS\n Frameworks: React, Node.js, Express\n Databases: MongoDB, MySQL, PostgreSQL\n Testing: Jest, Enzyme, Mocha, Chai, Postman, HTTPie, Loader.io\n Deployment: Docker, AWS EC2, Nginx, AWS S3\nTools: CSS modules, Ajax, jQuery, Axios, Webpack, Git, Trello, Vim\n`,
+      apps: ``,
+      experience: ``,
+      education: ``
     }
     this.setState({
       text: storage[id]

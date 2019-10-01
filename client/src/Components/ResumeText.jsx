@@ -1,9 +1,13 @@
 import React from 'react'
 
 const ResumeText = (props) => {
+  const textSplit = props.text.split('\n')
+  const text = textSplit.slice(0, textSplit.length-1)
+  const listText = text.map((e, i)=> 
+  <li key={i}>{e}</li>)
   return (
     <div>
-     {props.text.splice('\n')}
+     <ul> {listText}</ul>
     </div>
   )
 }
