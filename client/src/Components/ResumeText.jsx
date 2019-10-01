@@ -3,7 +3,7 @@ import React from 'react'
 const ResumeText = (props) => {
   return (
     <div>
-     {props.text}
+     {props.text.splice('\n')}
     </div>
   )
 }

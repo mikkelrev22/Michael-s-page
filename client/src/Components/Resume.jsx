@@ -5,15 +5,21 @@ class Resume extends React.Component {
   constructor (props) {
     super (props)
     this.state = {
-      text: ''
+      text: []
     }
-    this.state.handleClickz= this.state.bind(handleClickz)
+    this.handleClick= this.handleClick.bind(this)
   }
 
-  handleClickz(e) {
+  handleClick(e) {
     const id = e.target.value
     const storage = {
-      skills: "hi",
+      skills: [`Languages: JavaScript, HTML, CSS \n
+      Frameworks: React, Node.js, Express \n
+      Databases: MongoDB, MySQL, PostgreSQL \n
+      Testing: Jest, Enzyme, Mocha, Chai, Postman, HTTPie, Loader.io \n
+      Deployment: Docker, AWS EC2, Nginx, AWS S3 \n
+      Tools: CSS modules, Ajax, jQuery, Axios, Webpack, Git, Trello, Vim \n
+      `],
       apps: "how",
       experience: "are",
       education: "you"
@@ -30,13 +36,13 @@ class Resume extends React.Component {
           <h2>Résumé</h2>
         </div>
         <div className="resume-buttons-container">
-          <button className="resume-buttons" value="skills" id="technical-skill-button" onClick={this.handleClickz}> Technical Skills</button>
-          <button className="resume-buttons" value="apps" id="software-engineering-application-button" onClick={this.handleClickz}> Software Engineering Applications</button>
-          <button className="resume-buttons" value="experience" id="professional-experience-button" onClick={this.handleClickz}> Professional Experience</button>
-          <button className="resume-buttons" value="education" id="education-button" onClick={this.handleClickz}> Education</button>
+          <button className="resume-buttons" value="skills" id="technical-skill-button" onClick={this.handleClick}> Technical Skills</button>
+          <button className="resume-buttons" value="apps" id="software-engineering-application-button" onClick={this.handleClick}> Software Engineering Applications</button>
+          <button className="resume-buttons" value="experience" id="professional-experience-button" onClick={this.handleClick}> Professional Experience</button>
+          <button className="resume-buttons" value="education" id="education-button" onClick={this.handleClick}> Education</button>
         </div>
         <div className="body-text">
-        {this.state.text.length &&
+        {this.state.text.length>0 &&
           <ResumeText text={this.state.text}/>
         }
         </div>
