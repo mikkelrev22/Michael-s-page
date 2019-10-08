@@ -1,5 +1,5 @@
 import React from 'react'
-
+// Consider making this into a carousel that shows user-side pics and/or back-end code 
 const MyProjects = () => {
   return (
     <div>

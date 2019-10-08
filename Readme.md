@@ -8,3 +8,15 @@
 
 # If you have any helpful/constructive comments on the content or the site itself, please feel free to contact me via e-mail.
 
+# Ideas
+## To-do
+- links on Contact Me: linkedIn, GitHub, e-mail
+- 
+- 
+### Reach
+- embedded video on about me view
+- pagination for about me view
+- consider routing '/'
+- Authorization and authentification
+
+
