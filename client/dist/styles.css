@@ -66,3 +66,11 @@
 ul {
   list-style-type: circle; 
 }
+.home-text {
+  color: black;
+  font-family: Verdana;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

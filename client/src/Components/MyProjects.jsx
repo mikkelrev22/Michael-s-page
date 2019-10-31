@@ -8,7 +8,7 @@ const MyProjects = () => {
         My Software Engineering Apps
         </h2>
         </div>
-      <div className="body-text">Lorem Ipsum blah blah blah lbahl;aksdf;alsidjf;alksdjf;alsk</div>
+      <div className="body-text"></div>
     </div>
   )
 }

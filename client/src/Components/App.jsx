@@ -56,6 +56,13 @@ class App extends React.Component {
           </h2>
         }
         </div>
+        <div>
+        {this.state.view==='home' &&
+        <p className="home-text">
+          Hi, my name is Michael Thompson. I am a full-stack developer from Seattle, Washington. This website is meant to be about me and my work. Feel free to navigate using the bar above to learn more about who I am and what I do.
+          </p>
+        }
+        </div>
       </div>
     )
   }
