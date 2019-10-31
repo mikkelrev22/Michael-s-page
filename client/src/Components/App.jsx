@@ -59,7 +59,7 @@ class App extends React.Component {
         <div>
         {this.state.view==='home' &&
         <p className="home-text">
-          Hi, my name is Michael Thompson. I am a full-stack developer from Seattle, Washington. This website is meant to be about me and my work. Feel free to navigate using the bar above to learn more about who I am and what I do.
+          Hi, my name is Michael Thompson. I am a full-stack developer from Seattle, Washington. This website is meant to be about me and my work. Feel free to navigate using the bar above to learn more about who I am and what I do. Of course, if you have any questions, suggestions, or would like to hire me, please visit the 'Contact Me' section.
           </p>
         }
         </div>
