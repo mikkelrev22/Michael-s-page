@@ -115,7 +115,7 @@ eval("module.exports = __webpack_require__.p + \"44d876b816ea01bb858329d801d2b1e
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"0ae4de9f6b2f9982168b78e4a8b0e4df.jpg\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jbGllbnQvZGlzdC93b3JsZGN1cC5qcGcuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9jbGllbnQvZGlzdC93b3JsZGN1cC5qcGc/YTU4NiJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IF9fd2VicGFja19wdWJsaWNfcGF0aF9fICsgXCIwYWU0ZGU5ZjZiMmY5OTgyMTY4Yjc4ZTRhOGIwZTRkZi5qcGdcIjsiXSwibWFwcGluZ3MiOiJBQUFBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./client/dist/worldcup.jpg\n");
+eval("module.exports = __webpack_require__.p + \"c3f0c6a24742c52a9234038f239dc9fa.jpg\";//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jbGllbnQvZGlzdC93b3JsZGN1cC5qcGcuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9jbGllbnQvZGlzdC93b3JsZGN1cC5qcGc/YTU4NiJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IF9fd2VicGFja19wdWJsaWNfcGF0aF9fICsgXCJjM2YwYzZhMjQ3NDJjNTJhOTIzNDAzOGYyMzlkYzlmYS5qcGdcIjsiXSwibWFwcGluZ3MiOiJBQUFBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./client/dist/worldcup.jpg\n");
 
 /***/ }),
 
