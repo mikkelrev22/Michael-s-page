@@ -9,6 +9,7 @@ const ContactMe = () => {
         </h2>
         </div>
       <div className="body-text">
+        
           <p>
             <div>
               <h4>
@@ -17,12 +18,16 @@ const ContactMe = () => {
               <a>
                 michael.220488@gmail.com
               </a>
+            </div>  
+            <div>
               <h4>
                 GitHub:
               </h4>
               <a href= "https://github.com/mikkelrev22/">
                 github.com/mikkelrev22
               </a>
+            </div>
+            <div>  
               <h4>
                 LinkedIn:
               </h4>
