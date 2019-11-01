@@ -74,3 +74,15 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.image-container {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.image {
+  height: auto; 
+  width: auto; 
+  max-width: 500px; 
+  max-height: 500px;
+}
