@@ -1,5 +1,8 @@
 import React from 'react'
 import hikingPhoto from '../../dist/hiking.jpg'
+import spiderMeadow from '../../dist/spidermeadow.jpg'
+import worldCup from '../../dist/worldcup.jpg'
+
 const AboutMe = () => {
   return (
     <div>
@@ -11,8 +14,8 @@ const AboutMe = () => {
       </div>
       <div className="image-container">
         <img className="image" src={hikingPhoto}/>
-        <img/>
-        <img/>
+        <img className="image" src={spiderMeadow}/>
+        <img className="image" src={worldCup}/>
       </div>
     </div>
   )
