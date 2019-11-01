@@ -9,8 +9,7 @@ const ContactMe = () => {
         </h2>
         </div>
       <div className="body-text">
-        
-          <p>
+        <div>
             <div>
               <h4>
                 E-mail:
@@ -35,7 +34,7 @@ const ContactMe = () => {
                 linkedin.com/in/michael-thompson22
               </a>
             </div>
-          </p>
+        </div>
       </div>
     </div>
   )

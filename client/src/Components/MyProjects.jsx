@@ -8,7 +8,8 @@ const MyProjects = () => {
         My Software Engineering Apps
         </h2>
         </div>
-      <div className="body-text"></div>
+      <div className="body-text">Rural Outfitter</div>
+      <div className="body-text">Cloud B&ampB</div>
     </div>
   )
 }
