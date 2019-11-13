@@ -14,7 +14,7 @@ const MyProjects = () => {
         </div>
       <div className="body-text">Rural Outfitter</div>
       <div>
-        <img className="image" sr={worldCup}/>
+        <img className="image" src={worldCup}/>
       </div>
       <div className="body-text">Cloud B&B</div>
         <h3>Under Construction</h3>
