@@ -15,6 +15,7 @@
 }
 .container {
   background-color: white;
+  padding: 20px;
 }
 .title {
   display: flex;
@@ -24,6 +25,11 @@
   font-size: 50px;
   padding: 15px, 15px;
   font-family: Verdana;
+}
+.subtitle {
+  color:  black;
+  font-family: Verdana;
+  font-size: 40px;
 }
 .body-text {
   color: black;
