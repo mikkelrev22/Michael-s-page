@@ -10,9 +10,6 @@
 
 # Ideas
 ## To-do
-- links on Contact Me: linkedIn, GitHub, e-mail
-- 
-- 
 ### Reach
 - embedded video on about me view
 - pagination for about me view
