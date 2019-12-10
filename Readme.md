@@ -10,10 +10,8 @@
 
 # Ideas
 ## To-do
+- make page (more) viewable in mobile format
 ### Reach
 - embedded video on about me view
-- pagination for about me view
-- consider routing '/'
-- Authorization and authentification
 
 
