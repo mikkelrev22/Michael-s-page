@@ -20,6 +20,13 @@ const MyProjects = () => {
       <div className="container">
         <img className="image" src={cloudBNB}/>
       </div>
+      <div className="subtitle"> Bowling </div>
+      <div className="body-text">Simulation of how a bowling scoreboard works</div>
+        <div className="container">
+        <a href= "http://ec2-54-245-199-41.us-west-2.compute.amazonaws.com:7666">
+                Click here to view my bowling project
+              </a>
+        </div>
         <h3>Under Construction</h3>
       <div className="body-text">Steilacoom Project</div>
       <div className="body-text">Local American Indian Sites Application</div>
