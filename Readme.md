@@ -11,6 +11,7 @@
 # Ideas
 ## To-do
 - make page (more) viewable in mobile format
+- add OAuth & blog posting
 ### Reach
 - embedded video on about me view
 
